@@ -1,0 +1,202 @@
+body{
+    overflow-x: hidden; 
+      
+}
+.navbar{
+    margin-top: 20px;
+    padding: 1px;
+}
+#more{
+     border: 2px solid white;
+    background-color: rgb(66, 60, 60);
+    color: white;
+    margin-top: 10px;
+                        
+                
+                                     }
+             #tope{     border: 2px solid white;
+                        width: 15%;
+                        height: 15%;
+                        background-color: rgb(66, 60, 60);
+                        color: white;
+                        margin-top: 10px;
+  
+                            }
+             #when{   border: 2px solid white;
+                        width: 15%;
+                        height: 15%;
+                        background-color: rgb(66, 60, 60);
+                        color: white;
+                        margin-top: 10px;
+  
+                        }      
+            #dare{
+                        border: 2px solid white;
+                        background-color: rgb(66, 60, 60);
+                            color: white;
+                            margin-top: 10px;
+                            
+                                
+                              
+                         }
+            #daremi{
+                        border: 2px solid white;
+                        background-color: rgb(66, 60, 60);
+                        color: white;
+            }
+  
+              
+            .col-sm-4 img{
+                            width:100%;
+                                       }
+            h2{
+                           margin-top: 50px;
+  
+                                           }
+            .btc{
+                     background: black;
+            }
+            .navbar{
+                        position: fixed;
+                        font-size: 15px;
+                        padding: -10px;
+                                       }
+            .navbar img{
+                              width: 15%;
+                              height: 110px;
+                                        }
+            @media screen and (max-width:768px){
+                a{
+                 padding: 5px 50px;
+                 margin-left: 20px;
+                }
+                .offcanvas-body{
+                overflow: hidden;
+            }
+              .aba img{
+                width: 100%;
+                height: 200px;
+
+              }
+              .aba button{
+                           display: none;
+                           }
+            }
+            tr{
+                       border: 2px solid;
+            }
+            td{
+                        border: 1px solid;
+                        text-align: center;
+            }
+            table{
+                        margin-top: 80px;
+                        width: 90%;
+                        height: 70%;
+                      }
+            .yyy{
+                              background: #006063;
+                              width: fit-content;
+                                  padding: 10px;
+                              border-radius: 360px; 
+                                  color: white;
+                              position: fixed;
+                              bottom: 0px;
+                              left: 30px;
+                              z-index: 100;
+                                      
+                          }
+            .deoye{
+                        background-color: black;
+                        color: white;
+                        padding-bottom: 60px;
+                      }
+            .what{
+                          background-color: yellow;
+                          border: none;
+                          width: 80px;
+                        }
+             #dis{        border: none;
+                          background-color: rgb(103, 209, 103);
+                          height: 7%;
+                          width: 35%;
+  
+                            }
+             #what{           border: none;
+                            background-color: rgb(47, 56, 65);
+                            height: 7%;
+                            width: 35%;
+                            color: white;
+                   
+                                  }
+           #richard{          border: none;
+                              background-color: rgb(4, 183, 243);
+                              height: 7%;
+                              width: 35%;
+  
+                       
+                                     }  
+              #dabo{           border: none;
+                              background-color: purple;
+                              height: 7%;
+                              width: 35%;
+  
+                                         }  
+            #worky{
+                              border: none;
+                              background-color: white;
+                              height: 40%;
+                              width: 35%;
+                        } 
+                        .prom .aby{
+                              background: #336698;
+                              font-size: 25px;
+                               padding: 5px 10px;
+                              border-radius: 360px;
+                              color: white;
+                          }
+                          .prom .ttt{
+                               background: #02ABEA;
+                              font-size: 23px;
+                               padding: 5px 6px;
+                              border-radius: 360px;
+                              color: white;
+                          }
+                          .prom .iii{
+                               background: linear-gradient(190deg, #963BB4, #CD3A9E, #FE553E);
+                              font-size: 23px;
+                               padding: 5px 6px;
+                              border-radius: 360px;
+                              color: white
+                          }
+                          .prom i{
+                              margin: 2px
+                          }
+                          .prom{
+                              z-index: 100;
+                              position: fixed;
+                              bottom: 0px;
+                              right: 50px
+                          }
+                          .deoye{
+                             z-index: -1;
+                          }
+                          .opor{
+                              background-color: #333333;
+                              text-align: center;
+                              color: white;
+                                  padding: 10px;
+                              font-size: 15px;
+                                  
+                                  
+                                  
+                          }
+
+                          .labalaba{
+                              color: red;
+                              text-align: center;
+                              padding: 7px;
+                          }
+                          
+                          
+                          

@@ -1,0 +1,258 @@
+#promise{
+    font-family: 'Quicksand', sans-serif; 
+    color: blue; 
+    font-size: 30px; 
+    
+  } 
+  #seun{
+    width: 900%; 
+    height:300px;
+  }
+  
+  .niffy{
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(69, 69, 174);
+    color: white;
+  } 
+  #olu{
+    margin-top: 70px;
+  }
+  @media screen and (max-width:990px){ 
+    .tolu img{
+      display: none;
+    }
+    #lead{
+      width: auto;
+    } 
+    #dan{
+      margin: 5px; 
+      max-width: 90%;
+      height: auto; 
+      
+      
+    } 
+    #demi{
+      margin: 10px;
+    }  
+    #yomi1{
+      margin: 10px;
+    }
+    #yomi2{
+      margin: 10px;
+    }
+  #yomi3{
+    margin: 10px;
+  }          
+     
+    
+  
+  
+ 
+      
+}
+  .tope{
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    color: white; 
+    width: 130px;
+    height: 40px;
+  
+  } 
+  .yemi{
+    border: 1px solid black;
+    border-radius: 10px; 
+    width: 150px;
+    height: 40px;
+  }  
+  #mimi{
+    background-color: rgb(251, 250, 249);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: blue;
+    font-size: 30px;
+  }  
+     #lead{
+       border: none;
+       border-radius: 10px;
+       background-color: whitesmoke;
+       padding: 25px;
+       box-shadow: 2px  2px 2px black
+     }
+     #tolu{
+       padding: 1px;
+     } 
+     .iconify{
+       margin: 1px;
+       border-radius: 360px;
+       width: 30px;
+       height: 30px; 
+       
+     } 
+    
+     .dam{
+       color: blue;
+     } 
+     .grace{
+      border: 1px solid #c4c4c4;;
+                   border-radius: 12px;
+                   
+                   padding: 10px 10px 30px 10px;
+                   margin: 5px; 
+       
+      
+     }  
+     .grace1{ 
+      border: 1px solid #c4c4c4;;
+                   border-radius: 12px;
+                   
+                   padding: 10px;
+                   margin: 5px; 
+       
+
+     } 
+     .grace2{ 
+      border: 1px solid #c4c4c4;;
+                   border-radius: 12px;
+                   
+                   padding: 10px;
+                   margin: 5px; 
+
+     } 
+
+     .grace3{
+      border: 1px solid #c4c4c4;;
+                   border-radius: 12px;
+                   
+                   padding: 10px;
+                   margin: 5px; 
+                   padding-bottom: 55px;
+     }
+     .grace4{
+      border: 1px solid #c4c4c4;;
+                   border-radius: 12px;
+                   
+                   padding: 10px;
+                   margin: 5px;
+                   padding-bottom: 68px;
+
+     }
+     .grace5{
+      border: 1px solid #c4c4c4;;
+                   border-radius: 12px;
+                   
+                   padding: 10px;
+                   margin: 5px;
+
+     }
+     .grace img{
+       float: left;
+       padding-right: 10px;
+     }
+      .grace1 img{
+        float: left;
+        padding-right: 10px;
+      }
+      .grace2 img{
+        float: left;
+        padding-right: 10px;
+      } 
+      .grace3 img{
+        float: left;
+        padding-right: 10px;
+      }
+      .grace4 img{
+       float: left;
+       padding-right: 10px;
+     } 
+     .grace5 img{
+       float: left;
+       padding-right: 10px;
+     }
+    
+      
+     #demi{
+      
+
+       border-radius: 12px;
+       border: 1px solid #c4c4c4;
+       padding: 14px 15px 30px;
+       
+       
+     } 
+     #yomi1{
+       border-radius: 12px; 
+       border: 1px solid #c4c4c4; 
+       
+       padding: 14px 15px 30px;
+       
+       
+
+       
+     }
+     #yomi2{
+       border-radius: 12px;
+       border: 1px solid #c4c4c4;
+      padding: 20px;
+      
+       
+      
+      
+     } 
+     #yomi3{
+       border-radius: 12px;
+       border: 1px solid #c4c4c4;
+       padding: 14px 15px 30px;
+      
+       
+                 }  
+
+                 .tomi{ 
+                  border-radius: 12px;
+                    border: 1px solid #c4c4c4;
+                     padding: 14px 15px 30px;
+                     margin: 10px;
+
+                 }
+                 .tomi1{
+                  border-radius: 12px;
+                  
+                   border: 1px solid #c4c4c4;
+                   padding: 14px 15px 70px;
+                   margin: 10px;
+                 } 
+                 .tomi2{
+                  border-radius: 12px;
+                   border: 1px solid #c4c4c4;
+                     padding: 14px 20px 65px;
+                     margin: 10px;
+
+                 }
+                 .tomi3{ 
+                  border-radius: 12px;
+                   border: 1px solid #c4c4c4;
+                     padding: 14px 15px 42px;
+                     margin: 10px; 
+                  
+                 } 
+                 .wunmi{
+                   border: 1px solid #c4c4c4;;
+                   border-radius: 12px;
+                   color: #654c4c;
+                   padding: 10px;
+                   margin: 5px; 
+                  
+                 }
+                 .wunmi2{
+                  border: 1px solid #c4c4c4;;
+                   border-radius: 12px;
+                   color: #654c4c;
+                   padding: 10px;
+                   margin: 3px; 
+                  
+                 } 
+                 .risk{
+                   background-color: #39394D;
+                   color: white;
+                   padding: 30px 40px 80px 8px; }

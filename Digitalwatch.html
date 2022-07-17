@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital watch</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        h1{
+            background-color: aqua;
+            width: fit-content;
+            border: 2px solid black;
+            border-radius: 5px; 
+            padding: 10px;
+        }
+        .dabo{
+            margin: 200px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="dabo">
+   <center> <h2>A Digital watch</h2></center>
+   <center><h1 id="jummy"></h1></center>  
+    </div>
+    <script>
+            
+        function blessings(){  
+            
+            let a=new Date();
+            let hh= new Date().getHours();
+            let mm=new Date().getMinutes();
+            let ss=new Date().getSeconds(); 
+        let session="AM"; 
+        if(hh==0){
+                hh=12;
+            } 
+            if(hh>12){
+                hh=hh-12;
+                session= "pm";
+            } 
+            ss=(ss<10)? "0"+ss: ss;
+            mm=(mm<10)? "0"+mm: mm;
+            hh=(hh<10)? "0"+hh: hh;
+            document.getElementById("jummy").innerHTML= hh + ":" + ""  + mm + ":" + ss + "" + session;
+            let t=setTimeout(blessings, 1000); 
+            
+        } 
+            blessings();
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,102 @@
+.amidat{
+          float: right;
+          padding-right: 250px;
+      }
+      button{
+          color: red;
+          font-weight: bolder;
+          border: none;
+          background: white;
+          font-size: 17px;
+      }
+      #soul{
+          background: red;
+          color: white;
+          padding: 10px;
+          margin-left: 10px;
+          border-radius: 5px;
+      }
+      .westy{
+          padding-left: 100px;
+          padding-top: 20px;
+          background: white;
+          position: sticky;
+      }
+      @media screen and (max-width:990px){
+          .westy{
+           padding-left: 0px;
+           display: inline;
+           
+           }
+           body{
+               overflow-x: hidden;
+           }
+           
+           .bala{
+               width: 100%;
+               overflow: scroll;
+                
+           }
+           .bala button{
+               display: inline;
+           }
+           .bala .bola div{
+                font-size: 14px;
+           }
+        }
+         
+          
+          .amidat{
+              float: right;
+              padding-right: 10px;
+          }
+      
+         .dabo{
+             color: white;
+             font-size: 50px;
+             
+         }
+         #flex{
+             background-image:url("myimage/header-2560-2.jpg");
+             padding: 50px;
+             height: 350px;
+             padding-bottom: 100px;
+             
+            
+         }
+         .dam{
+             background-color: black;
+             color: white;
+             padding-bottom: 200px;
+             padding-left: 200px;
+             margin-top:-19px;
+            
+         }
+         .dam h1{
+             border-left: 3px solid red;
+             padding-left: 20px;
+         }
+         li{
+             border-bottom: 15px solid red;
+         }
+
+          i{
+              font-size: 80px;
+              color: black;
+              font-weight: 800;
+              width: 200px;
+              padding: 60px;
+              opacity: 0.7;
+
+          }
+          li p{
+              color: black;
+          }
+          .tolu{
+              padding-top: 40px;
+          }
+          .container{
+              padding: 50px;
+          }
+    
+         

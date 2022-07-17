@@ -1,0 +1,78 @@
+
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta http-equiv="X-UA-Compatible" content="IE=edge">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>calculator</title>
+              <style>
+
+                  .west{ 
+                      margin-top: 150px;
+                    
+                  } 
+                  body{
+                      background-color: darkslateblue;
+                  }
+                  input{
+                      width: 20%;
+                      text-align: center;
+                      height: 30px;
+                      border: none;
+                  } 
+                  #sola{ 
+                    width: 20%;
+                      text-align: center;
+                      height: 30px;
+                      border: none;
+
+                  } 
+                  button{
+                      background-color: red;
+                      color: white;
+                      border: none;
+                      padding: 5px;
+                  } 
+                  h1{
+                      color: rgb(206, 232, 206);
+                      font-size: 50px;
+                  }
+                  h2{
+                      font-size: 30px;
+                  }
+              </style>
+          </head>
+          <body>
+              <center class="west">
+                  <h2>Enter the amount you want to invest and how long(in Month) did u want to invest it </h2>
+              
+              <input type="number" id="olu" placeholder="Investment amount" ><br><br>
+              
+              <select id="sola">
+                  <option>In Months</option>
+                  <option value="1">1 Month</option>
+                  <option value="2">2 Month</option>
+                  <option value="3">3 Month</option>
+                  <option value="6">6 Month</option>
+                  <option value="12">12 Month</option>
+              </select> <br /><br />
+              <button onclick="src()" type="button">CALCULATE</button>
+              <h1 id="dare"></h1> 
+            
+              </center>
+              <script>
+                  function src(){
+                      var a = Number(document.getElementById("olu").value);
+                      var b = Number(document.getElementById("sola").value);
+                      
+                      var c = a * 0.1 * b;
+                      var d = c + a;
+                      document.getElementById("dare").innerHTML = "Withdrawal Amount will be:" + "" + "" + "$" + ""  + d;
+          
+                  }
+              </script>
+          </body>
+          </html>
+</body>
+</html>

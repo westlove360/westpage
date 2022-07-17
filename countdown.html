@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>countdown</title>
+</head>
+<body>
+    <style> 
+    body{
+        background-color: antiquewhite;
+    }
+        h1{
+            background-color: antiquewhite;
+            padding: 10px;
+            width: fit-content;
+            border: 2px solid black;
+            border-radius: 10px;
+
+
+        }
+        .dabo{
+            margin: 200px auto;
+        }
+    </style>
+</head>
+<body id="demo">
+    <div class="dabo">
+        <center> <h2>count dowm to january 1, 2023</h2></center>
+        <center><h1 id="Glory"></h1></center> 
+    </div>
+     <script>
+         var x = setInterval(function(){
+         var final= new Date("jan 1, 2023 12:00:00").getTime();
+         var now = new Date().getTime();
+         var distance = final - now;
+            
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                 var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                 document.getElementById("Glory").innerHTML = days + "d " + hours + "h "
+                                                             + minutes + "m " + seconds + "s "; 
+                                                             if (distance < 0) {
+                                                                      clearInterval(x);
+                                                              document.getElementById("demo").style.background = "url(myimage/west12.png)";
+                                                                                 }
+                                                                                
+                                                                                            }, 1000);
+
+
+     </script>
+</body>
+</html>

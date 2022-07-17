@@ -1,0 +1,193 @@
+body{
+     margin: auto;
+     padding: auto;
+}
+.one{
+          background: #003366;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          padding-left: 300px;
+          border-bottom: 2px solid white;
+     }
+        .one img{
+             transform: translate(-50px);
+        }
+     .one button{
+          float: right;
+          transform: translatex(-200px);
+          margin-left: 20px;
+          margin-top: 20px;
+          border-radius: 2px;
+     }
+     #not{
+          background: #003366;
+          border: 1px solid white;
+          color: white;
+     }
+     .two{
+          text-align: center;
+          background-color: red;
+     }
+     .TTT{
+               border: none;
+               background-color: #003366;
+               color: white;
+               padding: 10px;
+                    
+               }
+               
+
+     .two a{
+          margin-left: 5px;
+          text-decoration: none;
+          color: white;
+          border-right: 2px solid white;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 700;
+          
+     }
+     .two a:hover{
+          background: rgb(173, 15, 15);
+     }
+     @media screen and (max-width:980px) {
+          #acc{
+               transform: translate(0px,-3px);
+          }
+          .navbar-toggler{
+               font-size: 2.7rem;
+          }
+              nav{
+               background: #003366;
+          }
+          .row{
+               padding: 20px;
+          }
+          .row{
+               margin-top: -30px;
+          }
+     }
+     @media screen and (min-width:990px) {
+          .three{
+               display:none;
+          }
+     }
+     
+     @media screen and (max-width: 990px){
+          .lolly img{
+               display: inline-block;
+               vertical-align: middle;
+               max-width:110%;
+               height: auto;
+               padding-right: 50px;
+               
+
+          }
+          .two{
+               display: none;
+          }
+          .Aby{
+               width: 100%;
+          }
+          .Aby{
+               transform: translateY(-20px);
+          }
+          .dabo{
+               width: 100px;
+          }
+
+          .offcanvas-body{
+               overflow: hidden;
+               margin-left: 10px;
+               padding-left: 20px;
+          }
+          .non{
+               display:none;
+          }       
+     }
+
+     .Aby{
+          background-color: #E5E2DA;
+          padding-top: 30px;
+          padding-bottom: 20px;
+     }
+     .westy{
+          padding-bottom: 20px;
+          padding-top: 20px;
+          font-family: Arial, Helvetica, sans-serif;
+     }
+     .yomi{
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 15  px;
+     }
+     body{
+          overflow-x: hidden;
+     }
+     .col-lg-4 {
+                    padding-top: 50px;
+                    padding-left: 50px;
+                    padding-bottom: 50px;       
+                    }
+                    #whole{
+                    background: #F9F9F9;
+                    
+                         
+                    }
+                    #term{
+                         background: #F9F9F9;
+                    padding-top: 20px;
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                         
+                    }
+                    #westy{
+                    margin-top: 10px;
+                    margin-bottom: 15px;
+                    }
+                    #dabo{
+                                        background: #F9F9F9;
+                                        padding: 20px;
+                                        margin-top: 10px
+                                        
+                                        
+                                        }
+            .abass{
+                                        transform: translatey(30px)
+                                        }
+                                        .promise{
+                                        background: #F9F9F9;
+                                        margin-top: 20px
+                                        
+                                        }
+                                        .sunko{
+                                        background: #003366;
+                                        color: white;
+                                        padding-top: 20px
+                                                  
+                                        }
+                                        p{font-family:pp-sans-big-light,Helvetica Neue,Arial,sans-serif;
+                                        font-weight: 400;
+                                        color: #535252;
+                                        line-height:  1.5em;
+                                        -webkit-font-smoothing: antialiased;
+                                        }
+                                        .isaac{
+                                        padding-top: 20px;
+                                        padding-bottom: 30px;
+                                        border-top: 1px solid white; 
+                                        
+                                                  
+                                        }
+                                        h3{
+                                        font-family: pp-sans-big-light,Helvetica Neue,Arial,sans-serif;
+                                        color: #535252;
+                                        line-height:  1.5em;
+                                        font-weight: 400;
+                                        -webkit-font-smoothing: antialiased;
+                                        }
+                                        h2{
+                                        font-family: pp-sans-big-light,Helvetica Neue,Arial,sans-serif;
+                                        color: #535252;
+                                        line-height:  1.5em;
+                                        font-weight: 400;
+                                        -webkit-font-smoothing: antialiased;
+                                        }

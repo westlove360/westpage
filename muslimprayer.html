@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hours in day</title>
+    <style>
+        body{
+            background-color: darkgoldenrod;
+            
+        }
+        .tao{
+            margin-top: 80px;
+        }
+        button{
+            background-color: red; color: white; border: none; border-radius: 20px; height: 50px; width: 100px; font-size: 30px; 
+        }
+        
+        
+        
+    </style>
+</head>
+
+<body>
+        <center class="tao" >
+       <h1 id="tao"></h1> 
+       <h2 style="color: white;">Click the button below to know muslim prayer time</h2>
+       <button value="click" onclick="myfunction()">click</button>
+    </center>
+    
+       <script>
+             function myfunction(){
+             var a= new Date();
+             var b= [ "1hour", "2hours", "3hours", "4hours","5hour", "6hours", "7hours", "8hours","9hour", "10hours", "11hours", "12hours",
+                          "13hour", "14hours", "15hours", "16hours",  "17hour", "18hours", "19hours", "20hours","21hour", "22hours", "23hours", "24hours"] 
+                var c= b[a.getHours()]; 
+               // alert(c)
+                switch (c){
+                     case "6hours": 
+                        document.getElementById("tao").innerHTML= "it is time for Fajr prayer let go and pray!!" 
+                        break;
+                      case "12hours":
+                          document.getElementById("tao").innerHTML= "it is time for Dhuhr prayer let go and pray!!" 
+                          break;
+                          case "15hours":
+                          document.getElementById("tao").innerHTML= "it is time for Asr prayer let go and pray!!" 
+                          break;
+                          case "18hours":
+                          document.getElementById("tao").innerHTML= "it is time for maghrib prayer let go and pray!!" 
+                          break;
+                          case "21hours":
+                          document.getElementById("tao").innerHTML= "it is time for Isha prayer let go and pray!!" 
+                          break;
+                          default:
+                          document.getElementById("tao").innerHTML= "we dont have prayer now the time for prayer will eventually comes!!!" 
+                          break;
+                }
+             }
+
+       </script>
+</body>
+</html>

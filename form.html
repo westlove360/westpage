@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formvalidationassignment</title>
+</head>
+<body>
+    
+    <form name="form" type="#" onsubmit="myfunction()">
+        <fieldset>
+            <legend>registration form</legend>
+        <label>Your username:</label>
+        <input type="text" name="username" onkeyup="myfunction(document.form.username)"><br /><br />
+        <label>Your Address:</label>
+        <input type="text" name="Address" onkeyup="myfunction(document.form.Address)"><br /><br />
+        <label>Your country:</label>
+        <select name="country" onkeyup="myfunction(document.form.country)">
+           <option value="-1">select your country </option>
+           <option value="1">Ghana</option>
+           <option value="2">China</option>
+           <option value="3">USA</option> 
+           </select><br /><br />
+          <label>Your Zip code:</label>
+         <input type="text" name="Zipcode" onkeyup="myfunction(document.form.Zipcode)"><br /><br />
+         <label>Email Address:</label>
+        <input type="text" name="Email" onkeyup="myfunction(document.form.Email)"><br /><br />
+              <button type="button" onclick="myfunction()"> submit</button>  
+        </fieldset> 
+
+     </form> 
+
+     <script>
+          function myfunction(){
+            var a=document.form.username;
+            var b=document.form.Address;
+            var c=document.form.country;
+            var d=document.form.Zipcode;
+            var e=document.form.Email; 
+            if(allletters(a)){
+                if(alphanumeric(b)){
+                    if(countryselect(c)){
+                        if(allnumeric(d)){
+                            if(validateEmail(e)){
+
+                            }
+                        }
+                    }
+                }
+            } 
+            return false;
+          }
+
+              function allletters(a){
+                  var letters=/^[A-Za-z]+$/;
+                  if(a.value.match(letters)){
+                      return true;
+                  } 
+                  else{
+                      alert("username must have alphabet characters only"); 
+                      document.form.username.focus();
+                      return false;
+                  }
+
+              }  
+
+              function alphanumeric(b){
+                  var alphaletters= /^[0-9a-zA-Z]+$/;
+                  if (b.value.match(alphaletters)){
+                      return true;
+                  } 
+                  else{
+                      alert("user address must have alphanumerics only");
+                      document.form.Address.focus();
+                      return false;
+                  }
+              }  
+              function countryselect(c){
+                  if(c.value== "-1") {
+                      alert("select your country from the list") ;
+                      document.form.country.focus();
+                      return false;
+                  } 
+                  else{
+                      return true; 
+                      document.form.Zipcode.focus();
+                  }
+              }    
+
+              function allnumeric(d){
+                  var number= /^[0-9]+$/; 
+                  if(d.value.match(number)){
+                      return true;
+                  } 
+                  else{
+                      alert("Zip code must have numeric characters only");
+                      document.form.Zipcode.focus();
+                      return false;
+                  } 
+              } 
+
+              function validateEmail(e){
+                  var emailformat= /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+                  if(e.value.match(emailformat)){
+                      return true;
+                  } 
+                  else{
+                      alert("you have entered an invalid email address!!");
+                      document.form.Email.focus();
+                      return false;
+
+                      
+                  }
+              }
+                 
+          
+     </script>
+</body>
+</html>
