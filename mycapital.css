@@ -1,6 +1,6 @@
 body{
-     margin: auto;
-     padding: auto;
+     margin: 0px auto;
+    overflow-x: hidden;
 }
 .one{
           background: #003366;
